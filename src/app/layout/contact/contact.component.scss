@@ -1,0 +1,77 @@
+@import '/src/assets/scss/variables';
+@import '/src/assets/scss/mixins';
+@import '/src/assets/scss/base';
+
+.register {
+    background: linear-gradient(#5D4954, #FFA69E);
+
+    .container {
+        .row {
+            .col-lg-6.col-sm-12 {
+                .content {
+                    width: 100%;
+                    height: 550px;
+                    margin-top: 20px;
+
+                    .form-sec {
+                        margin-left: 22%;
+                        margin-right: 22%;
+                        margin-top: 20px;
+                        color: indigo;
+                        opacity: none;
+                        border: 0.5px solid $color-black;
+                        padding: 10px;
+
+
+                        h2 {
+                            font-size: 35px;
+                            color: #6dd5ed;
+                            font-weight: 700;
+                            margin-left: 50px;
+                            margin-right: 50px;
+
+                            &:hover {
+                                color: darkkhaki;
+
+                            }
+                        }
+
+                        div {
+                            padding-top: 10px;
+                            z-index: 10;
+
+                            .icon {
+                                color: yellowgreen;
+                                font-weight: bolder;
+
+                            }
+
+                            input {
+                                width: 270px;
+                                height: 35px;
+                                border: 2px solid $color-secondary;
+                                border-radius: 10px;
+                                font-size: 15px;
+                            }
+
+                            .warning {
+                                color: orangered;
+                                font-weight: 500;
+                                font-size: 15px;
+
+
+                            }
+
+                            .form-btn {
+                                width: 170px;
+                                margin-left: 60px;
+                                margin-right: 60px;
+                                margin-top: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

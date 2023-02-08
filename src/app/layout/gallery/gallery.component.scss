@@ -1,0 +1,31 @@
+@import '/src/assets/scss/variables';
+@import '/src/assets/scss/mixins';
+@import '/src/assets/scss/base';
+
+
+.container{
+    .gallery{
+        display: flex;
+        padding-left: 250px;
+        padding-right: 250px;
+        .card{
+            border: 1px solid $color-teritiary;
+            margin-left: 40px;
+            margin-right: 40px;
+            margin-top: 40px;
+            .btn.btn-primary{
+                margin-top: 5px;
+                padding: 5px;
+                width:70px;
+            }
+            padding: 30px;
+            .card-body{
+                text-align: center;
+                h5{
+                    margin-top: 5px;
+                    color: $color-primary;
+                }
+            }
+        }
+    }
+}

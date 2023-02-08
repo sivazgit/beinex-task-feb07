@@ -1,0 +1,18 @@
+@import '/src/assets/scss/variables';
+@import '/src/assets/scss/mixins';
+@import '/src/assets/scss/base';
+
+.content{
+    .container{
+        h2{
+            color:$color-secondary;
+            text-align:center;
+        }
+        p{
+            text-align: center;
+            padding: 30px;
+        }
+        
+
+    }
+}

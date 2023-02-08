@@ -1,0 +1,50 @@
+@import '/src/assets/scss/variables';
+@import '/src/assets/scss/mixins';
+@import '/src/assets/scss/base';
+
+.navbar.navbar-expand-lg{
+    padding: 15px;
+    background-color: #003284;
+    .container{
+        ul{
+            margin: auto;
+            li{
+                a{
+                    color: $color-white;
+                    &:hover{
+                        text-decoration: underline;
+                        color: $color-bcontent;
+
+                        #a1{
+                            cursor: pointer;
+                        }
+                    }                   
+                }
+            }
+        }
+    }
+}
+
+
+.footer{
+    margin-top: 100vh;
+    background-color: $color-primary;
+    p{
+        color: cornflowerblue;
+        margin-left: 520px;
+        margin-right: 520px;
+    }
+
+    .icons{
+        margin-left: 550px;
+        margin-right: 550px;
+        div{
+            display: inline;   
+            
+            img{
+                background-color: aqua;
+                margin: 5px;
+            }
+        }
+    }
+}

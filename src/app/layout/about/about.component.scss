@@ -1,0 +1,14 @@
+@import '/src/assets/scss/variables';
+@import '/src/assets/scss/mixins';
+@import '/src/assets/scss/base';
+
+.container{
+    h2{
+        text-align: center;
+        color: $color-bhead;
+    }
+
+    .para{
+        padding: 50px;
+    }
+}

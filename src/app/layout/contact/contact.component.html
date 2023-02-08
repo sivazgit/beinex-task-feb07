@@ -1,0 +1,49 @@
+<div class="register">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="content">                        
+                        <div class="form-sec">
+                            <h2>SIGN UP!</h2>
+                            <form action="" id="sign-up" class="form">
+                                <!-- name -->
+                                <div>
+                                    <div class="icon"><i class="fa-solid fa-user"></i>
+                                    <input type="Name" placeholder="Name" id="name" onkeyup="validateName()"></div>
+                                    <div class="warning" id="name-error"></div>
+                                </div>
+                                <!-- password -->
+                                <div>
+                                    <div class="icon"><i class="fa-solid fa-key"></i>
+                                    <input type="password" placeholder="Password" id="password" onkeyup="validatePassword()"></div>
+                                    <div class="warning" id="password-error"></div>
+                                </div>
+                                <!-- confirm password -->
+                                <div>
+                                    <div class="icon"><i class="fa-solid fa-lock"></i>
+                                    <input type="password" placeholder="Confirm Password" id="confirm-password" onkeyup="validateConfirmPassword()"></div>
+                                    <div class="warning" id="confirm-password-error"></div>
+                                </div>
+                                <!-- email -->
+                                <div>
+                                    <div class="icon"><i class="fa-solid fa-at"></i>
+                                    <input type="email" placeholder="Email" id="email" onkeyup="validateEmail()"></div>
+                                    <div class="warning" id="email-error"></div>
+                                </div>
+                                <div>
+                                    <div class="icon"><i class="fa-solid fa-phone"></i>
+                                    <input type="tel" placeholder="Mobile Number" id="phone" onkeyup="validatePhone()"></div>
+                                    <div class="warning" id="phone-error"></div>
+                                </div>
+                                <div>
+                                    <button type="submit" class="form-btn btn btn-primary" onclick="register()">Register</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3"></div>
+            </div>
+        </div>
+    </div>

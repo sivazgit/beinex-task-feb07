@@ -1,0 +1,9 @@
+@import '/src/assets/scss/variables';
+@import '/src/assets/scss/mixins';
+@import '/src/assets/scss/base';
+
+h3{
+    margin-left: 50px;
+    margin-top: 50px;
+    color: $color-primary;
+}
